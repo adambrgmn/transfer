@@ -1,6 +1,6 @@
 {
   "name": "transfr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node CLI to upload files with https://transfer.sh/",
   "keywords": [
     "transfer.sh",
