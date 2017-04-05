@@ -6,6 +6,8 @@ branches:
   only:
   - master
   - "/^v.*$/"
+script:
+  - "yarn test"
 notifications:
   email: false
   slack:
