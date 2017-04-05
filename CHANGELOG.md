@@ -1,11 +1,11 @@
-### 1.0.1 (April 5, 2017)
+## 1.0.1 (April 5, 2017)
 #### :bug: Bug Fix
 
 * Fix issue with the files property in `package.json` not being properly formatted
 
   This lead to issues with thi bin files not following along durin `npm install`.
 
-### 1.0.0 (April 5, 2017)
+## 1.0.0 (April 5, 2017)
 
 #### :rocket: New Feature
 * `transfr` is released
