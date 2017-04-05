@@ -1,5 +1,5 @@
 {
-  "name": "transfer",
+  "name": "transfr",
   "version": "0.0.0",
   "description": "A Node CLI to upload files with https://transfer.sh/",
   "keywords": [
@@ -8,10 +8,10 @@
     "commander",
     "upload"
   ],
-  "repository": "git@github.com:adambrgmn/transfer.git",
-  "homepage": "https://github.com/adambrgmn/transfer",
+  "repository": "git@github.com:adambrgmn/transfr.git",
+  "homepage": "https://github.com/adambrgmn/transfr",
   "bugs": {
-    "url": "https://github.com/adambrgmn/transfer/issues",
+    "url": "https://github.com/adambrgmn/transfr/issues",
     "email": "adam@fransvilhel.com"
   },
   "license": "MIT",
@@ -21,7 +21,7 @@
     "./lib"
   ],
   "main": "index.js",
-  "bin": "./.bin/transfer.js",
+  "bin": "./.bin/transfr.js",
   "scripts": {
     "start": "node index.js"
   },
