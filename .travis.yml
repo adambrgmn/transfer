@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+- '6'
+cache: yarn
+branches:
+  only:
+  - master
+  - "/^v.*$/"
+notifications:
+  email: false
+  slack:
+    secure: B61Y7Sv73mTUBS30VAUDfbTCzCeN7HzOhyUfT9W6AvcsYK9nqDhP8bdYOJ8Eo1DydurZxjpad1ESlN1EDvSgZdwoX6sl3iylctNqG0Bz64twK2EpEz/f8Dmr7nB74AutuMUiGasskLcVufwG99+0/ZBkQHBkLrwk/iW3s025E7yi+IAkaFC0PT3SmwfxHlN2CRq8yslqZQAVqEk61tQyF/aaO+LiVzylmMWQNcM98kLnQ7neI5ITtMq00qYSEY4L/DeQxgN3K6YU9yQJ2fvslPR8KA/sx7tTtF8NdSqj//CtFU2yvtnVV9plSgJ0vDBzf/2DUQ85ut16Mn9OM3rskEe/pD59L9baw5B2AsbfRGRSwKZEtQcZzI1ZwsOrTu58lUZZQ0vuWnn9zTbZ/YR/R9gVKWXc9BpZXCOgh0dSCsuhU4zTApXijjCu7e+Zau/0DqRMpO3zsCH7ujfz0eBb7DWuWubu6RyaZHIDeytf9gfQKAvEJbmwbp2Po3ilt9+pRPchip3e89+G73t3sc/CgH56Z+/DafcaTMrT1cv9hGJd5xcooDi/js9+HbDP/BMJWsBg1h23wXiOuO4Hm0dG+n1uy7HT4ZW0U2FmsuqJwiRU1Io2t/9zyZ3249lQtmGH2pq9KAxRKcMKTDj+90vH9GZ0ul9EQ9d4073nANqYCKQ=
+deploy:
+  provider: npm
+  email: "adam@fransvilhelm.com"
+  on:
+    tags: true
+  api_key:
+    secure: XJj7vHH8QE6Xx+3UGI5y/v7kk0hJX5ZMdKUj3fKWQLwKNm1/BG/DjNZcFCO5+zI6/7fxHJRjNngDyGkaXEWm6RlJQlRqn/ks5KOdg9FmtUrWc63uf9teDUmt8yDv58coK8axhLm+KCZrqYdktSJVNjnilitVe2yLUEl9/Nhgvb8XFBCoFK4p0jdOEWpyVyMDHKr47hOw8Gz5MpGhuWFemZ7HNXhUAfPaBHJfvdYqK3PI88Sn3BOR0uprPMQ+KShj9dfr/ZFiVc4AWqtD7HexTVBPSsfeBX9qh7bKsOFG4B3upgs7+kzyd4UOvzmZ83rvNG0iGiCXpHV4ojgP6vR9UIf6GKkbwOxB8QsE3Ge32ZXY1YfPPy1PqxvxRyH9pOEtOkOQ0sksRjdRX+dayQvtjWQrG6+viKBj+2LmD9SMmYgLi65Psz7lbPjUCnyKZ2gqi6grs0CMtpruZdGu4CshI597MNadyZv4JQARzqmbqP9AgSg9er0VvEd8xqfX3Uh+opeC/ZYx/mOtRsJkr9kNldgMuCp0xH1VAy5Y6hiZFMiJd3tBZSRdCCHmWL/33DA06jplWvWz+UCxGm3qc/lPtZu88j0zc3gHFq/qVKpVRCPbiqvpinsQCccB49XnmfW26UTMGU7L7M2c4wk/mbR/tGUIKjFGh9XlYqoyYCxtBRw=
