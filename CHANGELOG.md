@@ -17,4 +17,4 @@
   $ transfr cat.jpg
   ```
 
-  This will result in the cat image being uploaded to Transfr and the link will both be printed on the terminal as well as copied to your clipboard.
+  This will result in the cat image being uploaded to transfer.sh and the link will both be printed on the terminal as well as copied to your clipboard.
