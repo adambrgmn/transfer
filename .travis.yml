@@ -8,6 +8,7 @@ branches:
   - "/^v.*$/"
 script:
   - "yarn test"
+  - "yarn run lint"
 notifications:
   email: false
   slack:

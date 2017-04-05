@@ -23,8 +23,9 @@
   "main": "index.js",
   "bin": ".bin/transfr.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo 'no test provided yet'"
+    "start": ".bin/transfr.js -d lib",
+    "test": "echo 'no test provided yet'",
+    "lint": "eslint 'lib/**/*.js'"
   },
   "dependencies": {
     "cli-spinners": "^1.0.0",
