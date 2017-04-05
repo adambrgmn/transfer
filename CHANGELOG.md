@@ -1,9 +1,16 @@
+## 1.1.0 (April 6, 2017)
+#### :nail_care: Enhancement
+
+* Add ability to upload several files at once
+
+  Now it is possible to do `transfr cat1.png cat2.png`. This will bundle the files into a zip file and upload it to [transfer.sh](https://transfr.sh/).
+
 ## 1.0.1 (April 5, 2017)
 #### :bug: Bug Fix
 
 * Fix issue with the files property in `package.json` not being properly formatted
 
-  This lead to issues with thi bin files not following along durin `npm install`.
+  This lead to issues with thi bin files not following along during `npm install`.
 
 ## 1.0.0 (April 5, 2017)
 
