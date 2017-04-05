@@ -17,11 +17,11 @@
   "license": "MIT",
   "author": "Adam Bergman <adam@fransvilhelm.com>",
   "files": [
-    "./.bin",
-    "./lib"
+    ".bin",
+    "lib"
   ],
   "main": "index.js",
-  "bin": "./.bin/transfr.js",
+  "bin": ".bin/transfr.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo 'no test provided yet'"
